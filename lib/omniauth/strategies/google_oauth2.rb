@@ -12,7 +12,7 @@ module OmniAuth
       BASE_SCOPE_URL = 'https://www.googleapis.com/auth/'
       BASE_SCOPES = %w[profile email openid].freeze
       DEFAULT_SCOPE = 'email,profile'
-      USER_INFO_URL = 'https://www.googleapis.com/oauth2/v3/userinfo'
+      USER_INFO_URL = 'https://www.googleapis.com/oauth2/v3/userinfo'.freeze
 
       option :name, 'google_oauth2'
       option :skip_friends, true
